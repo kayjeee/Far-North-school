@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Far North Secondary High School - Important Notice</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 600px;
+            width: 100%;
+            overflow: hidden;
+            animation: slideIn 0.5s ease-out;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .header .notice-badge {
+            display: inline-block;
+            background: #ffd700;
+            color: #1e3c72;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .greeting {
+            font-size: 20px;
+            font-weight: bold;
+            color: #1e3c72;
+            margin-bottom: 20px;
+        }
+
+        .message {
+            font-size: 16px;
+            line-height: 1.8;
+            color: #333;
+            margin-bottom: 25px;
+        }
+
+        .items-section {
+            background: #f8f9fa;
+            border-left: 4px solid #2a5298;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 5px;
+        }
+
+        .items-section h3 {
+            color: #1e3c72;
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+
+        .items-list {
+            list-style: none;
+        }
+
+        .items-list li {
+            padding: 10px 0;
+            border-bottom: 1px solid #dee2e6;
+            font-size: 16px;
+            color: #495057;
+        }
+
+        .items-list li:last-child {
+            border-bottom: none;
+        }
+
+        .items-list li:before {
+            content: "✓";
+            color: #28a745;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .info-box {
+            background: #fff3cd;
+            border: 2px solid #ffc107;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 25px 0;
+        }
+
+        .info-box h3 {
+            color: #856404;
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+
+        .info-box p {
+            color: #856404;
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        .info-box strong {
+            color: #1e3c72;
+        }
+
+        .important-note {
+            background: #f8d7da;
+            border: 2px solid #f5c6cb;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 25px 0;
+        }
+
+        .important-note h3 {
+            color: #721c24;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+
+        .important-note p {
+            color: #721c24;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .footer {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 2px solid #e9ecef;
+        }
+
+        .footer p {
+            font-size: 16px;
+            color: #495057;
+            margin: 5px 0;
+        }
+
+        .signature {
+            font-weight: bold;
+            color: #1e3c72;
+            margin-top: 15px;
+        }
+
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 22px;
+            }
+
+            .content {
+                padding: 25px;
+            }
+
+            .greeting {
+                font-size: 18px;
+            }
+
+            .message, .items-list li, .info-box p {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Far North Secondary High School</h1>
+            <div class="notice-badge">IMPORTANT NOTICE</div>
+        </div>
+
+        <div class="content">
+            <div class="greeting">Good Day Parents,</div>
+
+            <div class="message">
+                Parents are requested to come and collect the following items tomorrow, <strong>17th January 2025</strong>:
+            </div>
+
+            <div class="items-section">
+                <h3>Items to Collect:</h3>
+                <ul class="items-list">
+                    <li>Pants</li>
+                    <li>Shirts</li>
+                    <li>Skirts</li>
+                </ul>
+            </div>
+
+            <div class="info-box">
+                <h3>📅 Collection Details</h3>
+                <p><strong>Date:</strong> Friday, 17th January 2025</p>
+                <p><strong>Time:</strong> 08h00 - 12h00</p>
+            </div>
+
+            <div class="important-note">
+                <h3>⚠️ Important - Please Bring:</h3>
+                <p>• Uniform list<br>• Proof of Payment (POP) to clear payment</p>
+            </div>
+
+            <div class="footer">
+                <p>Kind Regards,</p>
+                <p class="signature">Mr Maropeng PS</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Add a simple fade-in animation when the page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            const container = document.querySelector('.container');
+            container.style.opacity = '0';
+            
+            setTimeout(() => {
+                container.style.transition = 'opacity 0.5s ease-in';
+                container.style.opacity = '1';
+            }, 100);
+        });
+
+        // Optional: Add a countdown if needed
+        const targetDate = new Date('2025-01-17T08:00:00');
+        
+        // You can add more interactive features here if needed
+    </script>
+</body>
+</html>
